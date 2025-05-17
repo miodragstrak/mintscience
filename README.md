@@ -10,7 +10,7 @@ Thank you for taking the time to review this project. I want to sincerely acknow
 ### ✅ **Completed**  
 1. **Solana Program (Rust)**  
    - Basic NFT minting functionality deployed to Devnet.  
-   - Program ID: `[YOUR_PROGRAM_ID]`  
+   - Program ID: `7fLRmoSp8EyQiY5bkrMy7hN7tGj3TknejpKPPDTUZRs2`  
 
 2. **Frontend (React + TypeScript)**  
    - Wallet connection (Phantom/Backpack).  
