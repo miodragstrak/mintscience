@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^4.5.14"
+  },
+  "name": "mintscience",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
