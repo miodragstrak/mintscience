@@ -1,16 +1,14 @@
-import { defineConfig } from 'vite'
-import { resolve } from 'path'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
 
 export default defineConfig({
-      optimizeDeps: {
-    include: ['@solana/web3.js']
-  },
+  plugins: [react()],
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src')
+      '@': path.resolve(__dirname, './src'),
+      '@client': path.resolve(__dirname, './src/client'),
+      '@types': path.resolve(__dirname, './src/types')
     }
-  },
-  server: {
-    port: 3000
   }
-})
+});
