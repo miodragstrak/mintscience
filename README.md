@@ -1,0 +1,2 @@
+> **Note to Evaluators**  
+> This project is still in active development. Some features may not be fully implemented at the time of review. I appreciate your patience and will continue improving the implementation.
